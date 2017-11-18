@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import logoImage from "../../../assets/images/logo.jpg";
+import logoImage from "../../assets/images/logo.jpg";
 
 let slide1 = "slide showing";
 let slide2 = "slide";
@@ -9,7 +9,7 @@ let slide4 = "slide";
 class Landing extends Component {
     
     state = {
-        slideCount: 0
+        slideCount: 1
     }
     
     slideShowHandler = () => {

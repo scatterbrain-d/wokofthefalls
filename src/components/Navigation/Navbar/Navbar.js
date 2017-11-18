@@ -10,6 +10,7 @@ const navbar = () => {
         <Aux>    
             <nav className="navbar">
                 <ul>
+                    <hr/>
                     <NavItem 
                         link="/"
                         navClass="navlink"
