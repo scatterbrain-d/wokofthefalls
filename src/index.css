@@ -225,20 +225,20 @@ body {
 }
 
 #slide1 {
-    background-image: url("https://images.unsplash.com/photo-1486419952281-2b1734713e54?w=1502");
+    background-image: url("./assets/images/food1.jpg");
 }
 
 #slide2 {
-    background-image: url("https://images.unsplash.com/photo-1469307517101-0b99d8fb0c33?w=1500");
+    background-image: url("./assets/images/food2.jpg");
 }
 
 #slide3 {
-    background-image: url("https://images.unsplash.com/photo-1504973839793-cf4a1f2ba1d5?w=1500");
+    background-image: url("./assets/images/food3.jpg");
 }
 
-/*#slide4 {*/
-/*    background-image: url("../public/food4.jpg");*/
-/*}*/
+#slide4 {
+    background-image: url("./assets/images/food4.jpg");
+}
 
 /* ----- Larger screen settings ----- */
 
