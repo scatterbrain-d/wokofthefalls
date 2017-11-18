@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navigation/Navbar/Navbar";
-import Landing from "./containers/Landing/Landing";
+import Landing from "./components/content/Landing/Landing";
 import Menu from "./components/content/Menu/Menu";
 import Location from "./components/content/Location/Location";
 import Coupons from "./components/content/Coupons/Coupons";
