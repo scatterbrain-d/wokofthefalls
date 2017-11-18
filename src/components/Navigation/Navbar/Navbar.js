@@ -11,12 +11,20 @@ const navbar = () => {
             <nav className="navbar">
                 <ul>
                     <NavItem 
-                        link="/"><img src={logoImage} alt="logo"/>
+                        link="/"
+                        navClass="navlink"
+                    >
+                        <img src={logoImage} alt="logo"/> WF
                     </NavItem>
-                    <NavItem link="/menu">Menu</NavItem>
-                    <NavItem link="/location">Location</NavItem>
-                    <NavItem link="/coupons">Coupons</NavItem>
-                    <NavItem link="/contact">Contact</NavItem>
+                    <hr/>
+                    <NavItem navClass="navlink" link="/menu/front">Menu</NavItem>
+                    <hr/>
+                    <NavItem navClass="navlink" link="/location">Location</NavItem>
+                    <hr/>
+                    <NavItem navClass="navlink" link="/coupons">Coupons</NavItem>
+                    <hr/>
+                    <NavItem navClass="navlink" link="/contact">Contact</NavItem>
+                    <hr/>
                 </ul>
                 <Details/>
             </nav>

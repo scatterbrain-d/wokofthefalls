@@ -6,14 +6,13 @@ const navItem = (props) => (
         <Aux>
             <li>
                 <NavLink
-                    className="navlink"
+                    className={props.navClass}
                     to={props.link}
                     exact
                 >
                     {props.children}
                 </NavLink>
             </li>
-            <hr/>
         </Aux>
 );
 
