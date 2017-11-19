@@ -26,9 +26,7 @@ body {
 
 @media screen and (min-width: 850px) {
  
-    .container {
-        flex-direction: row;
-    }
+    .container {flex-direction: row;}
     
     #content {
         width:80%;
@@ -101,32 +99,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
 }
 
-.navbar div {
-    display:none;
-}
+.navbar div {display:none;}
 
-.navbar div h4 {
-    margin-bottom: 0;
-}
+.navbar div h4 {margin-bottom: 0;}
 
-.navbar div p {
-    margin: 0;
-}
+.navbar div p {margin: 0;}
 
 /* ----- Larger screen settings ----- */
 
 @media screen and (min-width: 450px) {
-    .navbar ul {
-        font-size: 1em;
-    }
+    .navbar ul {font-size: 1em;}
 }
 
 @media screen and (min-width: 550px) {
-    .navbar ul {
-        font-size: 1.5em;
-    }
+    .navbar ul {font-size: 1.5em;}
 }
 
 @media screen and (min-width: 850px) {
@@ -146,9 +135,7 @@ body {
         justify-content: space-around;
     }
     
-    .navbar li {
-        width: 100%;
-    }
+    .navbar li {width: 100%;}
     
     .navbar li:hover,
     .navbar .active {
@@ -170,6 +157,7 @@ body {
     .navbar div {
         display: block;
         text-align: center;
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
     }
 }
 
@@ -189,9 +177,7 @@ body {
     list-style: none;
 }
 
-#slider img {
-    max-width: 100%;
-}
+#slider img {max-width: 100%;}
 
 #logo {
     position: absolute;
@@ -230,21 +216,13 @@ body {
     z-index: 2;
 }
 
-#slide1 {
-    background-image: url("./assets/images/food1.jpg");
-}
+#slide1 {background-image: url("./assets/images/food1.jpg");}
 
-#slide2 {
-    background-image: url("./assets/images/food2.jpg");
-}
+#slide2 {background-image: url("./assets/images/food2.jpg");}
 
-#slide3 {
-    background-image: url("./assets/images/food3.jpg");
-}
+#slide3 {background-image: url("./assets/images/food3.jpg");}
 
-#slide4 {
-    background-image: url("./assets/images/food4.jpg");
-}
+#slide4 {background-image: url("./assets/images/food4.jpg");}
 
 /* ----- Larger screen settings ----- */
 
@@ -271,21 +249,14 @@ body {
     text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
 }
 
-.details p {
-    margin:0;
-}
+.details p {margin:0;}
 
-.details div {
-    padding: 10px;
-}
+.details div {padding: 10px;}
 
 /* ----- Larger screen settings ----- */
 
 @media screen and (min-width: 850px) {
- 
-    .details {
-        display: none;
-    }
+    .details {display: none;}
 }
 
 /*
@@ -294,9 +265,7 @@ body {
     ===============
 */
 
-h2 {
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
-}
+h2 {text-shadow: 1px 1px 1px rgba(255,255,255,0.5);}
 
 .map {
     margin-top: 5%;
@@ -403,25 +372,15 @@ h2 {
     box-shadow: 0 1px 1px #333;
 }
 
-.contact input, textarea {
-    width: 75%;
-}
+.contact input, textarea {width: 75%;}
 
-.contact textarea {
-    height: 10vh;
-}
+.contact textarea {height: 10vh;}
 
-h4 {
-    text-align: center;
-}
+h4 {text-align: center;}
 
 @media (min-width: 550px) {
-    .contact {
-        width: 75%;
-    }
-    .contact textarea {
-        height: 20vh;
-    }
+    .contact {width: 75%;}
+    .contact textarea {height: 20vh;}
 }
 
 /*
@@ -438,4 +397,19 @@ h4 {
     background-color: red;
     border-top: 2px solid black;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#footer p {
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+}
+
+@media (min-width: 550px) {
+    #footer p {font-size: 1.5em;}
 }
